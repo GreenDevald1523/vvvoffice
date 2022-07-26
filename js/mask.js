@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    $('#number').inputmask("+7(999)-999-99-99");
+    $('#number').inputmask("+79{1,10}");
   });
