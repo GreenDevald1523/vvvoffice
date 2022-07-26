@@ -43,11 +43,11 @@ $(function () {
   });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  if ($(window).width() <= '730') {
-    $('#menu__toggle').click()
-  }
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//   if ($(window).width() <= '730') {
+//     $('#menu__toggle').click()
+//   }
+// });
 
 $('#closeBurger').click(() => {
   $('#menu__toggle').click()

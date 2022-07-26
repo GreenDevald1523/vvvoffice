@@ -35,6 +35,10 @@ a, button {
     overflow: hidden;
 }
 
+.fullmenu__wrapper {
+    overflow: scroll;
+}
+
 .content {
     flex: 1 1 auto;
 }
@@ -71,6 +75,14 @@ a, button {
     font-family: 'Gilroy';
     display: block;
     font-size: 28px;
+}
+
+.fullmenu {
+    margin: 100px auto;
+    background: url('../img/fullmenu.png') no-repeat;
+    background-position: center top;
+    background-size: 80%;
+    height: 2600px;
 }
 
 .header__menu {
@@ -805,11 +817,19 @@ html {
     .sec-8-price {
         right: 50px;
     }
+
+    .fullmenu {
+        height: 2400px;
+    }
 }
 
 @media (max-width: 1152px) {
     .container {
         max-width: 1010px;
+    }
+
+    .fullmenu {
+        height: 2200px;
     }
 
     .sec-8-price {
@@ -842,6 +862,10 @@ html {
 @media (max-width: 1037px) {
     .container {
         max-width: 910px;
+    }
+
+    .fullmenu {
+        height: 2000px;
     }
 
     .vvvoffice, .vvvoffice-second {
@@ -1015,6 +1039,10 @@ html {
         max-width: 810px;
     }
 
+    .fullmenu {
+        height: 1800px;
+    }
+
     .sec-4-item-text {
         max-height: 190px;
         width: 350px;
@@ -1038,6 +1066,10 @@ html {
 @media (max-width: 830px) {
     .container {
         max-width: 710px;
+    }
+
+    .fullmenu {
+        height: 1500px;
     }
 
     .sec-2-item img {
@@ -1120,6 +1152,11 @@ html {
 @media (max-width: 730px) {
     .container {
         max-width: 610px;
+    }
+
+    .fullmenu {
+        height: 1700px;
+        background-size: 100%;
     }
 
     .sec-8-price {
@@ -1268,6 +1305,9 @@ html {
         max-width: 510px;
     }
 
+    .fullmenu {
+        height: 1400px;
+    }
     .sec-8-price {
         right: 30px;
     }
@@ -1281,6 +1321,10 @@ html {
 @media (max-width: 530px) {
     .container {
         max-width: 410px;
+    }
+
+    .fullmenu {
+        height: 1100px;
     }
 
     .sec-11 input {
@@ -1332,6 +1376,10 @@ html {
 @media (max-width: 430px) {
     .container {
         max-width: 345px;
+    }
+
+    .fullmenu {
+        height: 900px;
     }
 
     .sec-7-desc .sec-7-img:last-child img {
